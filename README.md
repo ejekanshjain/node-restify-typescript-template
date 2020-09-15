@@ -1,0 +1,1 @@
+# node-restify-typescript-template
