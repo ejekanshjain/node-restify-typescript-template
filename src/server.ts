@@ -1,7 +1,7 @@
 import restify from 'restify'
 import corsMiddleware from 'restify-cors-middleware2'
 
-import { PORT, NODE_ENV } from './config'
+import { NODE_ENV, PORT } from './config'
 import routes from './routes/routes'
 
 const server = restify.createServer({
