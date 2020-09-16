@@ -46,5 +46,7 @@ routes(server)
 
 server.listen(
     PORT,
-    console.log(`${NODE_ENV} server started on port ${PORT}...`)
+    console.log(
+        `${NODE_ENV === 'production' ? 'Production' : 'Development'} server started on port ${PORT}...`
+    )
 )
